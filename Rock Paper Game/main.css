@@ -1,0 +1,121 @@
+* {
+    text-transform: capitalize;
+    font-family: 'Indie Flower', 'Comic Sans', cursive;
+    margin: auto;
+    text-align: center;
+    user-select: none;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#GamePicked {
+    font-size: 30px;
+}
+
+th {
+    width: 550px;
+}
+
+#Game {
+    margin-top: 50px;
+}
+
+#Rock, #Paper, #Scissors {
+    display: inline-block;
+    margin: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 200px;
+    width: 200px;
+    border: medium solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#Rock:hover {
+    transform: scale(1.03);
+}
+
+#Paper:hover {
+    transform: scale(1.03);
+}
+
+#Scissors:hover {
+    transform: scale(1.03);
+}
+
+#Rock:active {
+    transform: scale(0.99);
+}
+
+#Paper:active {
+    transform: scale(0.99);
+}
+
+#Scissors:active {
+    transform: scale(0.99);
+}
+
+#scores {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+#reset {
+  margin-top: 25px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  transition-duration: .2s;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  touch-action: manipulation;
+  width: auto;
+}
+
+#reset:hover {
+  background-color: #374151;
+  transform: scale(1.05);
+}
+
+#reset:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+#reset:active {
+transform: scale(0.95);
+}
+
+#userpick {
+    border: medium solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 250px;
+}
+
+#pcpick {
+    border: medium solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rock-Paper-Scissors</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <h2 id="sms">Lets go!</h2>
+    <table id="GamePicked">
+      <tr>
+        <th style="border: none;">
+          <div id="pick">You picked</div>
+          <div id="userpick"></div>
+        </th>
+        <th style="border: none;">
+          <div id="pick">Computer picked</div>
+          <div id="pcpick"></div>
+        </th>
+      </tr>
+    </table>
+    <div id="Game">
+      <button id="Rock"><img src="images/rock.png" style="width: 125px; height: 125px;"></button>
+      <button id="Paper"><img src="images/paper.png" style="width: 125px; height: 125px;"></button>
+      <button id="Scissors"><img src="images/scissors.png" style="width: 125px; height: 125px;"></button>
+    </div>
+    <table id="scores">
+      <tr>
+        <th style="width: 250px;">
+          <div id="score">Your Score:</div>
+          <div id="yourscore">0</div>
+        </th>
+        <th style="width: 250px;">
+          <div id="score">PC Score:</div>
+          <div id="pcscore">0</div>
+        </th>
+        <th style="width: 250px">
+          <div id="score">Draw Score:</div>
+          <div id="drawscore">0</div>
+        </th>
+      </tr>
+    </table>
+    <button id="reset">Reset Game</button>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

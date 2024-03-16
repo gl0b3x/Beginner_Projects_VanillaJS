@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: wheat;
+}
+
+#wrapper {
+    font-size: 35px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 25px;
+    border: 4.5px solid black;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    line-height: 30px;
+    transition: 0.5s ease-out;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: wheat;
+    color: black;
+    border: 4.5px solid black;
+}
+
+button.hide {
+    opacity: 0;
+}
+
+#correctWorld {
+    margin-top: 50px;
+    letter-spacing: 10px;
+    font-size: 35px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+#infoBlock {
+    margin-top: 75px;
+}
+
+#alphabet {
+    margin-left: 32.5%;
+    width: 35%;
+}

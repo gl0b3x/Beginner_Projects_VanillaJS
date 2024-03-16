@@ -1,0 +1,101 @@
+* {
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    background-color: #2F4F4F;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 600;
+    user-select: none;
+}
+
+h1 {
+    font-size: 55px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+header, main {
+    text-align: center;
+}
+
+#new-task-input{
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: white;
+    border: none;
+    color: #2F4F4F;
+    width: 580px;
+    height: 45px;
+}
+
+input::placeholder{
+    color: #2F4F4F;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#new-task-submit {
+    color: #00FF7F;
+    background-color: transparent;
+    border: none;
+    height: 47px;
+}
+
+#new-task-submit:hover {
+    opacity: 0.6;
+}
+
+.task {
+    margin-top: 10px;
+}
+
+.content, .actions {
+    display: inline;
+}
+
+.text {
+    border-radius: 10px;
+    background-color: rgb(168, 166, 166);
+    border: none;
+    color: #2F4F4F;
+    width: 570px;
+    height: 45px;
+}
+
+.edit {
+    color: #00FF7F;
+    border: none;
+}
+
+.edit:hover {
+    opacity: 0.6;
+}
+
+.delete {
+    color: #F08080;
+    border: none;
+}
+
+.delete:hover {
+    opacity: 0.6;
+}
+
+#checkbox {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#checkbox:hover {
+    transform: scale(1.1);
+  }
+
+#checkbox:active {
+    transform: scale(0.9);
+}

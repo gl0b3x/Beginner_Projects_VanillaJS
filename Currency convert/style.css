@@ -1,0 +1,216 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-weight: 500;
+}
+
+#blockConverter {
+  border: 2px solid #e0e1e5;
+  width: 35%;
+  height: 50%;
+  margin-left: 10%;
+  border-radius: 25px;
+}
+
+button {
+  cursor: pointer;
+}
+
+select {
+  cursor: pointer;
+}
+
+#valuesBlock {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#leftBlock {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-left: 100px;
+}
+
+#rightBlock {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-right: 100px;
+}
+
+#middleBlock {
+  height: 350px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#reverseCrnc {
+  margin-top: 120px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  transition: 0.5s all;
+}
+
+#reverseCrnc img {
+  width: 20px;
+  height: 20px;
+}
+
+#reverseCrnc:hover {
+  background-color: rgba(59, 160, 59, 0.4);
+}
+
+#userGet {
+  cursor: default;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+#from_currency,
+#to_currency {
+  margin-top: 25%;
+  width: 240px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s all;
+}
+
+#from_currency:focus,
+#to_currency:focus {
+  background-color: rgba(207, 207, 207, 0.25);
+  border: 1px solid blue;
+}
+
+#userValue,
+#userGet {
+  margin-top: 7%;
+  width: 240px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 5px solid black;
+  background-color: rgba(145, 143, 143, 0.295);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  transition: 0.5s all;
+  outline: none;
+  outline-offset: 0;
+}
+
+#userGet:focus,
+#userValue:focus {
+  border-bottom: 5px solid green;
+  background-color: rgba(207, 204, 204, 0.295);
+  color: green;
+}
+
+#userGet:hover,
+#userValue:hover {
+  background-color: rgba(207, 204, 204, 0.295);
+  color: green;
+  border-bottom: 5px solid green;
+}
+
+#errorNum {
+  color: red;
+  font-size: 13px;
+  opacity: 0;
+  position: absolute;
+  margin-top: 205px;
+}
+
+.hidden {
+  max-height: 0px;
+}
+
+.buttonP {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  transition: 0.15s all;
+}
+
+.buttonP:hover {
+  border-bottom: 3px solid green;
+  color: green;
+}
+
+#percentButtons {
+  margin-top: 8.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.active {
+  border-bottom: 3px solid green;
+  color: green;
+}
+
+#i {
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.popular {
+  border: none;
+  background-color: transparent;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  transition: 0.15s all;
+  font-weight: 500;
+}
+
+.popular:hover {
+  color: green;
+  border-bottom: 3px solid green;
+}
+
+.popular:active {
+  color: green;
+  border-bottom: 3px solid black;
+}
+
+#currentCrnc {
+  margin-left: 3.7%;
+  margin-top: -4.5%;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.popularActive {
+  color: green;
+  border-bottom: 3px solid green;
+}
